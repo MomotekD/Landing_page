@@ -1,0 +1,21 @@
+.HeaderAndBanner {
+    background-color: #1F2937;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+.Logo{
+    color: #F9FAF8;
+}
