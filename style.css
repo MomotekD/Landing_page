@@ -89,15 +89,41 @@ img{
 .QuoteSection {
     background-color: #E5E7EB;
     color: #1F2937;
+}
+
+.QuoteArea {
     display: flex;
     flex-direction: column;
     padding: 10%;
 }
 
 .Quote {
-    font-style: light italic;
+    font-style: italic;
+    font-weight: lighter;
     font-size: 36px;
 }
+
 .Author{
     align-self: flex-end;
+}
+
+/* Call to action section */
+
+.CallToAction {
+    display: flex;
+    color: #F9FAF8;
+    margin: 5% 10%;
+    padding: 5%;
+    background-color: #3882F6;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+
+.SignUpBtnCallToAction {
+    background-color: #3882F6;
+    border: #F9FAF8 solid 1px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-weight: 700;
+    padding: 10px 32px;
 }
