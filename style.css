@@ -44,3 +44,11 @@ ul {
 .BannerImage img{
     max-height: 400px;
 }
+
+.SignUpBtn{
+    background-color: #3882F6;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
