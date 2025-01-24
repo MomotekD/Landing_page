@@ -61,3 +61,25 @@ img{
     border: none;
     border-radius: 8px;
 }
+
+/* Main section */
+
+.RandomHeader{
+    display: flex;
+    justify-content: center;
+    margin: 5%; 
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    margin-inline: 10%;
+    margin-bottom: 5%;
+}
+
+.box {
+    border: #3882F6 solid 3px;
+    border-radius: 16px;
+    width: 150px;
+    height: 150px;
+}
