@@ -20,6 +20,7 @@
 
 a {
     text-decoration: none;
+    transition: all 300ms ease-in-out;
     color: #E5E7EB;
 }
 
@@ -54,12 +55,19 @@ img{
 
 .SignUpBtn{
     background-color: #3882F6;
+    transition: all 300ms ease-in-out;
     margin-top: 10px;
     color: #F9FAF8;
     font-weight: 700;
     padding: 10px 32px;
     border: none;
     border-radius: 8px;
+}
+
+.SignUpBtn:hover{
+    transition: 300ms;
+    transform: scale(1.1);
+    background-color: #4f90f8;
 }
 
 /* Main section */
@@ -73,8 +81,9 @@ img{
 .boxes {
     display: flex;
     justify-content: center;
-    margin-inline: 10%;
-    margin-bottom: 5%;
+    margin: 0% 10% 5% 10%;
+    gap: 15%;
+    text-align: center;
 }
 
 .box {
@@ -94,7 +103,7 @@ img{
 .QuoteArea {
     display: flex;
     flex-direction: column;
-    padding: 10%;
+    padding: 5% 20%;
 }
 
 .Quote {
@@ -121,9 +130,27 @@ img{
 
 .SignUpBtnCallToAction {
     background-color: #3882F6;
+    transition: all 300ms ease-in-out;
     border: #F9FAF8 solid 1px;
     border-radius: 8px;
     color: #F9FAF8;
     font-weight: 700;
     padding: 10px 32px;
+}
+
+.SignUpBtnCallToAction:hover {
+    transition: 300ms;
+    background-color: #4f90f8;
+    transform: scale(1.1);
+}
+
+/* Footer section */
+
+.Footer {
+    display: flex;
+    padding: 1.5%;
+    font-size: small;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
 }
