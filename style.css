@@ -1,3 +1,11 @@
+*{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and banner section */
+
 .HeaderAndBanner {
     background-color: #1F2937;
 }
@@ -5,6 +13,9 @@
 .Header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-inline: 10%;
+    padding-bottom: 5%;
 }
 
 a {
@@ -14,8 +25,22 @@ a {
 
 ul {
     display: flex;
+    gap: 10px;
     list-style: none;
 }
+
 .Logo{
     color: #F9FAF8;
+}
+
+.Banner{
+    display: flex;
+    margin-inline: 10%;
+    color: #E5E7EB;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BannerImage img{
+    max-height: 400px;
 }
