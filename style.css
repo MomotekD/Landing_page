@@ -82,7 +82,7 @@ img{
 .boxes {
     display: flex;
     justify-content: center;
-    margin: 0% 15% 5% 15%;
+    margin: 0% 10% 5% 10%;
     gap: 15%;
     text-align: center;
 }
