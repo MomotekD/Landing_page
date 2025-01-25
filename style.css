@@ -15,7 +15,8 @@
     justify-content: space-between;
     align-items: center;
     margin-inline: 10%;
-    padding-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 a {
@@ -81,7 +82,7 @@ img{
 .boxes {
     display: flex;
     justify-content: center;
-    margin: 0% 10% 5% 10%;
+    margin: 0% 15% 5% 15%;
     gap: 15%;
     text-align: center;
 }
@@ -91,6 +92,13 @@ img{
     border-radius: 16px;
     width: 150px;
     height: 150px;
+}
+
+.BoxWithText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Quote section */
